@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="tictactoe.js"></script>
+    <link rel="stylesheet" type= "text/css" href = "tictactoe.css"/>
+    <title>Pirate Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1>Ye Be Playin Tic Tac Toe!</h1>
+    <div class="jumbotron">
+      <input type="text" placeholder="Enter Ye Name Pirate 1" id="pirate1input"/>
+      <input type="text" placeholder="Enter Ye Name Pirate 2" id="pirate2input"/>
+      <!-- Put jumbotron buttons in a text-center class to center them on the page-->
+      <div class="text-center">
+        <input type="button" id="playAgainButton" value="Play Again"/>
+        <input type="button" id="startButton" value="Enter If Ye Dare!"/>
+        <input type="button" id="resetButton" value="Reset"/>
+      </div>
+    </div>
+    <!-- gameResults updates as winners are declared -->
+    <h2 id = "gameResults"></h2>
+    <!-- Div to hold pirate 1 info, game board and pirate2 info -->
+    <div class = "container-fluid">
+      <div class = "row">
+        <div class = "col-sm-3" id = "pirate1info">
+          <h2  id="pirate1name"></h2>
+          <ul id="pirate1score"></ul>
+        </div>
+        <div class = "col-sm-6" id = "gameboard">
+          <!-- Table to hold the game board -->
+            <table class= "grid">
+              <tr class = "row" id = "row1">
+                <td class = "cell" id = "cell1">
+                  <input type="button" id = "cellButton1" class = "cellButton"/>
+                </td>
+                <td class = "cell" id = "cell2">
+                  <input type="button" id = "cellButton2" class = "cellButton"/>
+                </td>
+                <td class = "cell" id = "cell3">
+                  <input type="button" id = "cellButton3" class = "cellButton"/>
+                </td>
+              </tr>
+              <tr class = "row" id = "row2">
+                <td class = "cell" id = "cell4">
+                  <input type="button" id = "cellButton4" class = "cellButton"/>
+                </td>
+                <td class = "cell" id = "cell5">
+                  <input type="button" id = "cellButton5" class = "cellButton"/>
+                </td>
+                <td class = "cell" id = "cell6">
+                  <input type="button" id = "cellButton6" class = "cellButton"/>
+                </td>
+              </tr>
+              <tr class = "row" id= "row3">
+                <td class = "cell" id = "cell7">
+                  <input type="button" id = "cellButton7" class = "cellButton"/>
+                </td>
+                <td class = "cell" id = "cell8">
+                  <input type="button" id = "cellButton8" class = "cellButton"/>
+                </td>
+                <td class = "cell" id = "cell9">
+                  <input type="button" id = "cellButton9" class = "cellButton"/>
+                </td>
+              </tr>
+            </table>
+            <img src="kraken.gif" id="kraken"/>
+        </div>
+        <div class = "col-sm-3" id = "pirate2info">
+          <h2 id="pirate2name"></h2>
+          <ul id="pirate2score"></ul>
+        </div>
+      </div>
+    </div>
+    <br>
+    <footer>Rules (more like guidelines) of yer ship: red pirate shoots first, winner starts next game, dead men tell no tales. Savvy?</footer>
+  </body>
+</html>
