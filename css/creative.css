@@ -93,25 +93,65 @@ aside {
 }
 
 #top-left-name:hover{
-  color: #005b96;
+  color: #b3cde0;
 }
 
 #top-left-name{
-  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
-             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+  color: white;
+  text-shadow: #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px,
+             #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
 }
 
-.page-scroll {
-  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
-             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+#pagescrollid:hover{
+   color:	#046dec;
+}
+
+#skillscrollid:hover{
+   color:	#046dec;
+}
+#portfolioid:hover{
+   color:	#046dec;
+}
+
+#recoid:hover{
+   color:	#046dec;
+}
+
+#contactid:hover{
+   color:	#046dec;
+}
+
+#pagescrollid{
+   color:#03396c;
+}
+
+#skillscrollid{
+   color:#03396c;
+}
+#portfolioid{
+   color:#03396c;
+}
+
+#recoid{
+   color:#03396c;
+}
+
+#contactid{
+   color:#03396c;
 }
 
 #main-title{
-  color: #005b96;
+  color: #6497b1;
+  text-shadow: #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px,
+             #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
+
 }
 
 #main-description{
-  color: #005b96;
+  color: white;
+  text-shadow: #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px,
+             #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
+
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -206,8 +246,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    opacity: .6;
 }
+
 
 header .header-content {
     position: relative;
@@ -347,6 +387,15 @@ header .header-content .header-content-inner p {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
+}
+
+.twitter{
+  background-color: #005b96;
+}
+
+#gitlink{
+  color: white;
+  font-size: 34pt;
 }
 
 .call-to-action h2 {
@@ -501,6 +550,7 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
+
 
 body {
     webkit-tap-highlight-color: #222;

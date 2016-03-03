@@ -53,19 +53,22 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about" id="pagescrollid">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#skills">Skills</a>
+                        <a class="page-scroll" href="#skills" id="skillscrollid">Skills</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio" id="portfolioid">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#recommendations">Recommendations</a>
+                        <a class="page-scroll" href="#social" id="socialid">Social</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#recommendations" id="recoid">Recommendations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact" id="contactid">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +82,7 @@
             <div class="header-content-inner">
                 <h1 id="main-title">amir for you</h1>
                 <hr>
-                <p id="main-description">Full-Stack</p>
+                <p id="main-description">-Full-Stack Developer-</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
@@ -160,20 +163,20 @@
             </div>
         </div>
     </section>
-
+<!--Portfolio Projects-->
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="pirate tic tac toe">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Front-End Web Development
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Pirate Tic Tac Toe
                                 </div>
                             </div>
                         </div>
@@ -185,10 +188,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Front-End Web Development
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Magic 8-ball
                                 </div>
                             </div>
                         </div>
@@ -200,10 +203,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    ROR/Full-Stack Development
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Tasker
                                 </div>
                             </div>
                         </div>
@@ -258,14 +261,15 @@
         </div>
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
-            </div>
-        </div>
-    </aside>
+  <!--timeline and twitter feed-->
+
+  <div class ="twitter" id="social" align="center">
+    <a href="http://www.github.com/anazemian" target="_blank"><i class="fa fa-github" id="gitlink"></i></a>
+    <a class="twitter-timeline" href="https://twitter.com/amir_nazemian" data-widget-id="705254999190732800">Tweets by @amir_nazemian</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+
+  <!--end timeline and twitter-->
 
     <section id="recommendations">
         <div class="container">
