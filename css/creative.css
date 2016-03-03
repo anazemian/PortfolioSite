@@ -113,6 +113,10 @@ aside {
    color:	#046dec;
 }
 
+#socialid:hover{
+  color:	#046dec;
+}
+
 #recoid:hover{
    color:	#046dec;
 }
@@ -130,6 +134,10 @@ aside {
 }
 #portfolioid{
    color:#03396c;
+}
+
+#socialid{
+  color:#03396c;
 }
 
 #recoid{
@@ -395,7 +403,7 @@ header .header-content .header-content-inner p {
 
 #gitlink{
   color: white;
-  font-size: 34pt;
+  font-size: 174pt;
 }
 
 .call-to-action h2 {
@@ -549,6 +557,10 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+.recos{
+  font-weight: bold;
 }
 
 
