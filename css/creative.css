@@ -403,7 +403,17 @@ header .header-content .header-content-inner p {
 
 #gitlink{
   color: white;
-  font-size: 174pt;
+  font-size: 34pt;
+}
+
+#twitlink{
+  color: white;
+  font-size: 34pt;
+}
+
+#linkedlink{
+  color: white;
+  font-size: 34pt;
 }
 
 .call-to-action h2 {
