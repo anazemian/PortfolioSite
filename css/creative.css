@@ -573,6 +573,24 @@ img::-moz-selection {
   font-weight: bold;
 }
 
+#contact{
+  background-color: #005b96;
+  color: white;
+}
+
+#phoneicon{
+  color: 	#f05f40;
+}
+
+#mailicon{
+  color:	#f05f40;
+}
+
+#emaillink{
+  color: 	white;
+}
+
+
 
 body {
     webkit-tap-highlight-color: #222;
