@@ -314,6 +314,21 @@ header .header-content .header-content-inner p {
   background-color: #005b96;
 }
 
+#git{
+  background-color: #005b96;
+}
+
+#sourcecode{
+  color: #f05f40;
+  text-align: center;
+  font-size: 20pt;
+}
+
+#sourcelink{
+  color:#005b96;
+  font-size: 20pt;
+}
+
 .section-heading {
     margin-top: 0;
 }
@@ -403,17 +418,17 @@ header .header-content .header-content-inner p {
 
 #gitlink{
   color: white;
-  font-size: 34pt;
+  font-size: 54pt;
 }
 
 #twitlink{
   color: white;
-  font-size: 34pt;
+  font-size: 54pt;
 }
 
 #linkedlink{
   color: white;
-  font-size: 34pt;
+  font-size: 54pt;
 }
 
 .call-to-action h2 {
@@ -571,6 +586,7 @@ img::-moz-selection {
 
 .recos{
   font-weight: bold;
+  color: black;
 }
 
 #contact{
